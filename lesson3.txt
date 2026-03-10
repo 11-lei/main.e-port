@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> HANNAH LEI G. LAGGUI </title>
+<style type="text/css">
+img {display:inline; margin-left:auto; margin-right:auto;}
+h1 {text-align:center; background-color:SeaGreen; border:3px dashed DarkCyan; border-radius:30px;}
+body {font-size:60;}
+.center {text-align:center; margin:auto; width:60%; background-color:OliveDrab; border:3px dashed SeaGreen; padding:10px;}
+</style>
+</head>
+<body style="background-image:url(naturebg.jpeg); background-size:100% 100% background-repeat:no-repeat;">
+<h1 style="color:white;">WELCOME TO MY E-PORTFOLIO!</h1>
+
+<div class="center">
+<p>Hello! My name is Hannah Lei G. Laggui, and I’m 14 years old, born on February 7, 2011. Like many of you, I find joy in the little things—dancing allows me to express my feelings, while writing helps me connect with my thoughts and dreams. Drawing gives me a chance to see the world through my own eyes, and taking pictures of nature allows me to capture fleeting moments of beauty that often go unnoticed.
+This is me dancing!</p>
+</div>
+</body>
+</html>
+
