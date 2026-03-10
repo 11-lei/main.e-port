@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.image-container {background-image:url("nolibg.jpg"); background-size:cover; position:relative; height:900px;}
+
+.text {background-color:white; color:black; font-size:70px; font-weight:bold; margin:0 auto; padding:10px; width:50%; text-align:center; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); mix-blend-mode:screen;}
+
+.center {margin:auto; position:absolute; top:60%; -ms-transform:translateY(100%); transform:translateX(155%);}
+
+a {text-decoration:none; color:white; font-weight:400; font-size:30px;}
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <div class="text">NOLI ME TANGERE PRESENTATION</div>
+<div class="center">
+    <a href="nolivid.html" target="_top">Click here for the video!</a>
+  </div>
+</div>
+
+</body>
+</html>
