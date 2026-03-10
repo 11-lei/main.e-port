@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<style type="text/css">
+h1 {text-align:center; font-family:TimesNewRoman; background-color:LightYellow; font-size:40px; color:DarkGreen;}
+p {background-color:DarkGreen; color:white; font-size:30px; padding:30px;}
+ul {background-color:DarkGreen; color:white; font-size:30px; padding:30px; margin-left:49%; text-align:left;}
+ol {background-color:DarkGreen; color:white; font-size:30px; padding:30px; text-align:left;}
+a {text-decoration:none; color:black; background-color:Peru; color:DarkGreen;}
+div.gallery:hover {border: 1px solid #777;}
+div.gallery {border:1px solid #ccc;}
+div.gallery img {width: 100%;height: auto;}
+div.desc {padding:15px; text-align:center;}
+* {box-sizing:border-box;}
+.responsive {padding:0 6px; float:right; width:24.99999%;}
+@media only screen and (max-width: 700px) {.responsive {width:49.99999%; margin:6px 0;}}
+@media only screen and (max-width: 500px) {.responsive {width:100%;}}
+.clearfix:after {content:""; display:table; clear:both;}
+</style>
+</head>
+<body style="background-image:url(abg.webp); background-size:100% 100%;">
+
+<h1>AGRIKULTURA</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_top" href="pangingisda.png">
+      <img src="pangingisda.png" alt="taas" width="500" height="300">
+    </a>
+    <div class="desc">Pangingisda</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_top" href="paggugubat.jpg">
+      <img src="paggugubat.jpg" alt="baba" width="500" height="300">
+    </a>
+    <div class="desc">Paggugubat</div>
+  </div>
+</div>
+
+  <p style="margin-right:52%; text-align:left;"><b>AGRIKULTURA</b>- Isang agham at sining na may kinalaman sa <em>pagpaparami ng mga hayop at mga tanim o halaman.</em></p>
+<br>
+
+<h3 style="text-align:center; color:DarkGreen; font-family:TimesNewRoman; background-color:LightYellow; font-size:30px;"><b> MGA GAWAIN SA SEKTOR NG AGRIKULTURA</b></h3>
+  <ol>
+  <li> <b>GAMPANIN NG PAGSASAKA</b>: Pangunahing pananim: palay, mais, niyog, tubo, saging, pinya, atbp. na karaniwang kinokonsumo sa loob at labas ng bansa.
+<br> Mga suliranin:<br>
+-pagliit ng lupang sakahan<br>
+-paggamit ng makabagong teknolohiya<br>
+-kakulangan ng mga pasilidad at imprastraktura sa kabukiran<br> 
+-kakulangan ng suporta mula sa iba pang sektor<br>
+-pagbibigay prayoridad sa sektor ng industriya, pagdagsa ng dayuhang kalakal<br>
+</li>
+  <li> <b>GAMPANIN NG PANGINGISDA</b>: Nauuri sa tatlo: komersiyal, munisipal, at aquaculture
+<br> Mga suliranin:<br>
+-mapanirang operasyon ng malalaking komersiyal na mangingisda<br>
+-epekto ng polusyon sa pangisdaan<br>
+-lumalaking populasyon ng bansa<br>
+</li>
+  <li> <b>GAMPANIN NG PAGHAHAYUPAN</b>: Kasama rito ang pang-araw-araw na pangangalaga, pumipili ng pag-aanak at pagpapalaki ng mga hayop
+<br> Suliranin:<br>
+-pagkakaroon ng mga peste sa alagang hayop tulad ng baboy at manok
+</li>
+  <li> <b>GAMPANIN NG PAGGUGUBAT</b>: Patuloy na nililinang ang ating mga kagubatan bagamat tayo ay nahaharap sa suliranin ng pagkaubos ng mga yaman nito
+<br>Suliranin:<br>
+-mabilis na pagkaubos ng mga likas na yaman
+</li>
+</ol>
+ 
+
+<h3 style="text-align:center; color:DarkGreen; font-family:TimesNewRoman; background-color:LightYellow; font-size:30px;"><b> KAHALAGAHAN NG AGRIKULTURA</b></h3>
+  <ol>
+  <li> Pinagmumulan ng pagkain</li>
+  <li> Pinagkukunan ng hilaw na materyales upang makabuo ng panibagong produkto</li>
+  <li> Nagkakaloob ng trabaho sa maraming Pilipino</li>
+  <li> Nagpapasok ng dolyar sa ating bansa</li>
+  <li> Pinagkukunan ng sobrang manggagawa patungo sa ibang sektor ng ekonomiya</li> 
+</ol>
+
+  <p style="text-align:center;"><b>MGA PATAKARAN AT PROGRAMA HINGGIL SA PAGPAPAUNLAD SA SEKTOR NG AGRIKULTURA</b><br>
+ <b><em>PANAHON NA HINDI PA NASASAKOP ANG PILIPINAS</em></b><br>
+-Ang mga sinaunang Pilipino ay nakakapag-may-ari ng lupa sa pamamagitan ng pagiging unang nagtayo ng bahay.<br>
+
+<b><em>PANAHON NG KASTILA</em></b><br>
+-Encomienda: lupang gantimpala sa matapat na naglilingkod sa hari ng Espanya at mga taong tumulong sa pananakop sa Pilipinas.<br>
+
+<b><em>PANAHON NG AMERIKANO</em></b><br>
+-Binili ng Amerika ang 160,000 hectares ng lupa mula sa mga prayle para sa mga magsasaka<br>
+-<b>Land Registration Act ng 1902</b>: Nagkaroon ng mga titulo dahil dito.<br>
+-<b>Public Land Act ng 1902</b>: Pamamahagi ng mga lupaing pampubliko sa mga pamilya na nagbubungkal ng lupa<br>
+
+<b><em>PANAHON NG KASARINLAN</em></b><br>
+-<b>Batas Republika Blg. 1160</b>: Nagtatag sa National Resettlement and Rehabilitation Administration (NARRA)<br>
+-<b>Batas Republika Blg. 1190 ng 1954</b>: Bilang proteksyon laban sa mapang-abuso na may-ari ng lupa osa mga manggagawa. Ito ay laban sa mga Absentee Landlord.<br>
+-<b>Agricultural Land Reform Code of 1963</b>: Nagpalaya sa mabigat na trabaho ng magsasaka mula sa kanilang pagkaalipin sa utang at kahirapan. Nilagdaan ni Diosdado Macapagal noong Agosto 8, 1963.<br>
+-<b>Atas ng Pangulo Blg. 2 ng 1972</b>: Isailalim sa reporma sa lupa ang buong Pilipinas noong panahon ni Pangulong Marcos.<br>
+-<b>Atas ng Pangulo Blg. 27</b>: Bibilhin ng pamahalaan ang mga lupang sakahan na taniman ng palay/mais na lampas sa 7 ektaryang limitasyon at ipamamahagi ito sa mga magsasakang walang lupa. <br>
+-<b>Batas Republika Blg. 6657 ng 1988</b>: “Comprehensive Agrarian Reform Law (CARL)” na inaprubahan ni Corazon Aquino noong Hunyo 10, 1988. Kabilang dito ang lahat ng publiko at pribadong lupang agrikultural at nakapaloob sa Comprehensive Agrarian Reform Program (CARP).<br>
+Ipinamamahagi ang lahat ng lupang agrikultural anuman ang tanim nito sa mga walang lupang magsasaka.<br>
+</p>
+
+  <h3 style="text-align:center; color:DarkGreen; font-family:TimesNewRoman; background-color:LightYellow; font-size:30px;"><b> SANGAY NG PAMAHALAAN NA TUMUTULONG SA SEKTOR NG AGRIKULTURA</b></h3>
+  <ol>
+  <li> <b>Department of Agriculture (DA)</b>: Gumagabay sa mga magsasaka ukol sa makabagong teknolohiya at wastong paraan ng pagtatanim.</li>
+  <li> <b>Bureau of Fisheries and Aquatic Resources (BFAR)</b>: Sinisikap na paunlarin ang larangan ng pangingisda.</li>
+  <li> <b>Bureau of Animal Industry (BAI)</b>: Nangangasiwa sa larangan ng paghahayupan.</li>
+  <li> <b>Ecosystem Research and Development Bureau (ERDB)</b>: Nagsasagawa ng pananaliksik sa ecosystem upang magbigay ng siyentipikong batayan sa pangangalaga ng kapaligiran at yamang gubat.</li>
+</ol>
+<a href="4L3.html" target="_top"> Pangatlo</a>
+
+
+</body>
+</html>

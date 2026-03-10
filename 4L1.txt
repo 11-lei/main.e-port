@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP 4TH QTR.</title>
+<style type="text/css">
+
+h1 {text-align:center; font-family:TimesNewRoman; background-color:white; font-size:40px; color:DarkOrange;}
+h3 {text-align:center; font-family:TimesNewRoman; background-color:white; font-size:40px; color:DarkOrange;}
+p {background-color:MediumBlue; color:white; font-size:30px; padding:30px;}
+ul {background-color:DarkRed; color:white; font-size:30px; padding:30px; margin-left:49%; text-align:left;}
+ol {background-color:DarkOrange; color:white; font-size:30px; padding:30px; text-align:left;}
+a {text-decoration:none; color:black; background-color:white;}
+div.gallery {border:1px solid #ccc;}
+div.gallery:hover {border:1px solid #777;}
+
+div.gallery img {width:400; height:auto;}
+
+div.desc {padding:15px; text-align:center;}
+
+* {box-sizing:border-box;}
+
+.responsive {padding:0 6px; float:left; width 24.99999%;}
+
+@media only screen and (max-width: 700px) {.responsive {width:49.99999%; margin:6px 0;}}
+
+@media only screen and (max-width: 500px) {.responsive {width:100%;}}
+
+.clearfix:after {content:""; display:table; clear:both;}
+</style>
+</head>
+<body style="background-image:url(pkbg.jpg); background-size:100% 100%;">
+
+<h1>Konsepto ng Demand</h1>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="pk1.jpg" target="_top">
+      <img src="pk1.jpg" alt="taas" width="300" height="300">
+    </a>
+    <div class="desc">Pambansang Kaunlaran</div>
+</div>
+</div>
+<br>
+<div class="responsive">
+  <div class="gallery">
+    <a href="pk2.webp" target="_top">
+      <img src="pk2.webp" alt="taas" width="300" height="300">
+    </a>
+</div>
+
+  <p><b>PAMBANSANG KAUNLARAN</b>- Isang estado ng bansa kung saan tinatamasa ng mga tao <em>mula sa pinakamababang uri ng mamamayan ang nakakamanghang pagbabago sa ekonomiya at pamumuhay.</em>
+</p>
+<br>
+
+  <div>
+  <ul>
+  <li><b>Pagbabago</b>: Proseso ng pag-iiba o pagkakaroon ng kaibahan sa lipunan at ekonomiya.</li>
+  <li><b>Pag-unlad</b>: Pagbabago mula sa mababa tungo sa mataas na antas ng pamumuhay. Isang progresibo at aktibong proseso at ang pagsulong ay produkto nito <em>(FAJARDO).</em></li>
+  <li><b>Pagsulong</b>: Pagpapaunlad ng kakayahan, kaalaman, at abilidad upang makasabay sa agos ng buhay.</li>
+  <li><b>Ebolusyon</b>: Pagbabago sa mga katangian sa loob ng mahabang panahon.</li>
+  </ul>
+</div>
+
+<h3>MGA SALIK NA MAAARING MAKATULONG SA PAGSULONG NG EKONOMIYA</h3>
+ <ol>
+<li> Likas na yaman</li>
+<li> Yamang-tao</li>
+<li> Kapital</li>
+<li> Teknolohiya at Inobasyon</li>
+</ol>
+
+<h3>MGA PALATANDAAN NG PAG-UNLAD</h3> 
+<ol>
+<li> Makatwiran at dinamikong kaayusan ng panlipunan </li>
+<li> Kasaganaan at kasarinlan</li>
+<li> Kalayaan sa kahirapan, hanapbuhay para sa lahat, umaangat na istandard ng pamumuhay, at mainam na uri ng buhay para sa lahat</li>
+<li> Sapat na mga lingkurang panlipunan </li>
+<li> Katarungang panlipunan  </li>
+</ol>
+  <p style="margin-right:55%; text-align:left;"><b>Human Development Index (HDI)</b>- <em>Pangkalahatang sukat</em> ng kakayahan ng isang bansa na matugunan ang mahahalagang aspekto ng kaunlarang pantao.<br></p>
+
+ <div>
+<h3>ANTAS NG KAUNLARAN NG BANSA</h3> 
+  <ul>
+  <li><b>Maunlad na Bansa o Developed Economies</b>: Mga bansang may mataas na GDP, income per capita, at mataas na HDI.</li>
+  <li><b>Umuunlad na Bansa o Developing Economies</b>: Mga bansang may mga industriyang kasalukuyang pinauunlad ngunit wala pang mataas na antas ng industriyalisasyon.</li>
+  <li><b>Papaunlad na Bansa o Underdeveloped Economies</b>: Mababang antas ng agrikultura at mababang GDP, income per capita, at HDI</li>
+  </ul>
+</div>
+
+  <ol>
+<li> Suportahan ang ating pamahalaan.</li>
+<li> Sundin at igalang ang batas.</li>
+<li> Alagaan ang ating kapaligiran.</li>
+<li> Tumulong sa pagpuksa sa korapsyon at katiwalian sa pamahalaan.</li>
+<li> Maging produktibo</li>
+<li> Tangkilikin ang mga produktong Pilipino.</li>
+<li> Magtipid ng enerhiya.</li>
+<li> Makilahok sa mga gawaing pansibiko.</li>
+</ol>
+
+<div>
+<h3>MGA GAMPANIN NG MAMAMAYAN SA PAG-UNLAD NG BANSA</h3>
+  <ul>
+  <li><b>Mapanagutan</b>: Tamang pagbabayad ng buwis</li>
+  <li><b>Maabilidad</b>: Pagnenegosyo</li>
+  <li><b>Maalam</b>: Pagpapatupad at pakikilahok sa mga proyektong pangkaunlaran sa komunidad</li>
+  <li><b>Makabansa</b>: Pakikilahok sa pamamahala ng bansa (participative governance)</li>
+  </ul>
+</div>
+<a href="4L2.html" target="_top"> Pangalawa</a>
+</div>
+</body>
+</html>

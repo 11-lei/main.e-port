@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head><title>AP</title>
+<style text="text/css">
+body {font-family:Verdana; margin:0;}
+h1 {background-color:Navy; font-size:40px; font-family:TimesNewRoman; color:LemonChiffon; text-align:center;}
+p {background-color:Navy; font-size:30px; font-family:TimesNewRoman; color:LemonChiffon;}
+ol {background-color:Navy; font-size:30px; font-family:TimesNewRoman; color:LemonChiffon;}
+ul {background-color:Navy; font-size:30px; font-family:TimesNewRoman; color:LemonChiffon;}
+h3 {background-color:Navy; font-size:40px; font-family:TimesNewRoman; color:LemonChiffon; text-align:center;}
+a {text-decoration:none; color:white;}
+a:hover {background-color:Navy;}
+* {box-sizing:border-box;}
+
+.row > .column {padding:0 8px;}
+
+.row:after {content:""; display:table; clear:both;}
+
+.column {float:left; width:25%;}
+
+
+.modal {display:none; position:fixed; z-index:1; padding-top:100px; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:black;}
+
+
+.modal-content {position:relative; background-color: #fefefe; margin:auto; padding:0; width:90%; max-width:1200px;}
+
+
+.close {color:white; position:absolute; top:10px; right:25px; font-size:35px; font-weight:bold;}
+
+.close:hover,.close:focus {color:#999; text-decoration:none; cursor:pointer;}
+
+.mySlides {display:none;}
+
+.cursor {cursor:pointer;}
+
+
+.prev,.next { cursor:pointer; position:absolute; top:50%; width:auto; padding:16px; margin-top:-50px; color:white; font-weight:bold; font-size:20px; transition:0.6s ease; border-radius:0 3px 3px 0; user-select:none; -webkit-user-select:none;}
+
+
+.next {right:0; border-radius:3px 0 0 3px;}
+
+
+.prev:hover,.next:hover {background-color: rgba(0, 0, 0, 0.8);}
+
+
+.numbertext {color:#f2f2f2; font-size:12px; padding:8px 12px; position:absolute; top:0;}
+
+img {margin-bottom:-4px;}
+
+.caption-container {text-align:center; background-color:black; padding:2px 16px; color:white;}
+
+.demo {opacity:0.6;}
+
+.active,.demo:hover {opacity:1;}
+
+img.hover-shadow {transition:0.3s;}
+
+.hover-shadow:hover {box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+</style>
+</head>
+<body style="background-image:url(ibg.jpg); background-size:100% 100%;">
+
+<h1>INDUSTRIYA</h1>
+
+<div class="row">
+  <div class="column">
+    <img src="pagmimina.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="konstruksyon.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="pagmimina.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="konstruksyon.jpg" style="width:100%">
+    </div>
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="pagmimina.jpg" style="width:100%" onclick="currentSlide(1)" alt="Formula">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="konstruksyon.jpg" style="width:100%" onclick="currentSlide(2)" alt="Elastisidad">
+    </div>
+   
+  </div>
+</div>
+
+<script>
+function openModal() {document.getElementById("myModal").style.display="block";}
+
+function closeModal() {document.getElementById("myModal").style.display="none";}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {showSlides(slideIndex += n);}
+
+function currentSlide(n) {showSlides(slideIndex = n);}
+
+function showSlides(n) {var i; var slides = document.getElementsByClassName("mySlides"); var dots = document.getElementsByClassName("demo"); var captionText = document.getElementById("caption"); if (n > slides.length) {slideIndex = 1} if (n < 1) {slideIndex = slides.length} for (i = 0; i < slides.length; i++) {slides[i].style.display="none";} for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");} slides[slideIndex-1].style.display = "block"; dots[slideIndex-1].className += " active"; captionText.innerHTML = dots[slideIndex-1].alt;}
+</script>
+
+ <p><b>INDUSTRIYA</b>:Tumutukoy sa pagproseso ng mga hilaw na materyal at paggawa ng mga produkto na kinakailangan para sa pampublikong pamilihan
+Naglalayong maiproseso ang mga hilaw na materyal upang makabuo ng produkto na ginagamit ng tao.</p>
+
+<p><b>SUB-SEKTOR NG INDUSTRIYA</b></p>
+<ol>
+<li><b>Pagmimina</b>: Pagkuha at pagproseso ng mga yamang mineral (metal, di-metal, o enerhiya) upang gawing tapos na produkto o kabahagi ng isang yaring kalakal</li>
+<li><b>Pagmamanupaktura</b>:  Paggawa ng mga produkto sa pamamagitan ng manual labor o ng mga makina</li>
+<li><b>Konstruksyon</b>: Pagtatayo ng mga gusali, estruktura, at iba pang land improvements</li>
+<li><b>Utilities</b>: Pagtugon ng mga pangunahing pangangailangan ng mga mamamayan tulad ng tubig, kuryente, at gas.</li>
+</ol>
+
+<p><b>PAGKAKAUGNAY NG AGRIKULTURA AT INDUSTRIYA</b></p>
+<ul>
+<li>Nagmumula sa agrikultura ang mga hilaw na sangkap na ginagamit sa pagbuo ng mga produkto ng industriya.</li>
+<li>Ang mga ginagamit na traktora, sasakyang pangingisda, at iba pang produkto ay mula sa industriya na ginagamit ng mga magsasaka upang magkaroon ng mataas na produksyon na magbibigay ng malaking kita sa sektor ng agrikultura.</li>
+<li>Ang dami ng lakas-paggawa sa mga mamimili ay nagpapakita ng lubos na pagtutulungan sa mga sector ng industriya at agrikultura.</li>
+<li>Ang agrikultura ang pinagmumulan ng pagkain ng mga industriya na siyang tumutugon sa mga pagkaing kinakailangan ng mga tao.</li>
+<li>Ang industriya ang nagbibigay ng malaking kontribusyon sa ekonomiya.</li>
+<li>Ang mga sangkap ay nagkakaroon ng transpormasyon dahil sa mga lakas–paggawa na gumagawa upang madagdagan ang halaga nito at lalo pang gumanda.</li>
+</ul>
+
+<p><b>SULIRANIN NG INDUSTRIYA</b></p>
+<ul>
+<li>Pondo at kompetisyon</li>
+<li>Paghina ng lokal na industriya</li>
+<li>Demand</li>
+</ul>
+
+<h1>MGA PATAKARANG PANG-EKONOMIYA</h1> 
+<ol>
+<li><b>Filipino First Policy</b>: Nagsimula sa programang FIlipino Muna ni Pangulong Carlos P. Garcia. Naglalayong bigyan ng higit na malaking partisipasyon ang mga Pilipino sa pagpapatakbo ng ekonomiya.</li>
+<li><b>Oil Deregulation Law (R.A. 8479)</b>: Nagbukas ng kompetisyon sa industriya ng langis.</li>
+<li><b>Patakaran ng Microfinancing: Serbisyong pinansiyal na isinasagawa ng mga bangko na magpautang na mayroong mababang interes sa mahihirap na pamilya.</li>
+<li><b>Patakaran sa Online Business</b>: Online shopping o retailing, Online intermediary service, Online advertisement o classified ads, Online auction</li>
+<li><b>Retail Nationalization Act of 1964 (R.A. 1180)</b>: Pilipino na may korporasyon o asosasyon lamang ang nasa kalakalang pagtitingi</li>
+<li><b>Retail Trade Liberalization Act of 2000 (R.A. 8762)</b>: Nagpawalang-bisa sa RA 1180. Binuksan ang kalakalang pagtitingi sa mga dayuhan.</li>
+<li><b>Build-Operate-Transfer (BOT) (R.A. 6957)</b>: Binibigyan ng karapatang bumuo ng mga pasilidad sa kanilang mga sariling pondo at palakarin ito sa humigit-kumulang na 25 taon</li>
+<li><b>Asset Privatization Trust (APT)</b>: Itinatag upang mapangasiwaan ang pagbebenta ng mga korporasyong pagmamay-ari ng pamahalaan sa pribadong pagmamay-ari.</li>
+</ol>
+
+<p><b>SANGAY NG PAMAHALAAN NA TUMUTULONG SA SEKTOR NG INDUSTRIYA</b></p>
+<ul>
+<li><b>Department of Trade and Industry (DTI)</b>: Tuwirang tumitingin at nangangalaga sa larangan ng industriya at pangangalakal. </li>
+<li><b>Board of Investments (BOI)</b>: Tinutulungan ang mga nagsisimulang industriya at humihikayat sa mga dayuhang mamumuhunan na magnegosyo sa bansa.</li>
+<li><b>Philippine Economic Zone Authority (PEZA)</b>: Tumutulong sa mga namumuhunan na maghanap ng lugar upang pagtayuan ng negosyo.</li>
+<li><b>Securities and Exchange Commission (SEC)</b>: Nagtatala at nagrerehistro sa mga kompanya sa bansa.</li>
+</ul>
+
+<a href="4L4.html" target="_top"> Pang-apat </a>   
+</body>
+</html>
