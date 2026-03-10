@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE/ICT (4TH QTR.)</title>
+<style type="text/css">
+img {display:inline; margin:auto; float:right;}
+h1 {text-align:center; color:white;}
+body {font-size:20px; font-family:Arial}
+* {box-sizing:border-box;}
+div.gallery {border:1px solid GhostWhite; background-color:FloralWhite;}
+div.gallery:hover { background-color:LightSkyBlue;}
+div.gallery img {width:100%; height:auto;}
+div.desc {padding:15px; text-align:center;}
+.responsive {padding:0 6px; float:left; width:24.99999%;}
+@media only screen and (max-width: 700px) {.responsive {width:49.99999%; margin:6px 0;}}
+@media only screen and (max-width: 500px) {.responsive {width:100%;}}.clearfix:after {content: "";display:table; clear:both;}
+img {background-color:#333; padding:10px; width:50%; margin-left:auto; margin-right:auto;}
+</style>
+</head>
+<body style="background-image:url(ICTbg.jpg); background-size:100% 100%;">
+<h1 style="font-size:60px;">TLE-ICT LESSONS</h1>
+<a href="MAIN E-PORT.html" target="_top" style="color:white;">Home</a>
+<hr>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_top" href="41.png">
+<img src="41.png" alt="41" width="600" height="400">
+</a>
+<h3>Lesson 1</h3>
+<div class="desc">I learned that JavaScript is a programming language used to make web pages interactive and dynamic. It allows developers to create features like user input boxes, buttons, and changing content on a webpage. JavaScript usually works together with HTML and CSS to build complete websites.</div>
+</div>
+</div>
+<div>
+  <img src="4t1.png" alt="cap" width="700">
+</div>
+
+<hr>
+<div class="responsive">
+<div class="gallery">
+<a target="_top" href="42.png">
+<img src="42.png" alt="42" width="600" height="400">
+</a>
+<h3>Lesson 2</h3>
+<div class="desc">I learned that in JavaScript, scripts can be placed in the head or body section of an HTML document. Scripts in the head section usually load before the page content, while scripts in the body section run after the page elements are loaded. This helps control when and how the JavaScript code runs on a webpage.</div>
+</div>
+</div>
+<div>
+<img src="4t2.png" alt="cap" width="690">
+</div>
+
+<hr>
+<div class="responsive">
+<div class="gallery">
+<a target="_top" href="43.png">
+<img src="43.png" alt="43" width="600" height="400">
+</a>
+<h3>Lesson 3</h3>
+<div class="desc">I learned that JavaScript has characteristics like being lightweight, case-sensitive, and used to make webpages interactive. It also has commonly used properties and methods that help manipulate data and control webpage behavior. JavaScript uses different data types such as strings, numbers, and booleans, and variables can be declared using var, let, or const to store values.</div>
+</div>
+</div>
+
+</div>
+<div class="scroll-container">
+  <img src="4t3.png" alt="cap" width="700">
+</div>
+
+<hr>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_top" href="44.png">
+<img src="44.png" alt="44" width="600" height="400">
+</a>
+<h3>LESSON 4</h3>
+<div class="desc">I learned that events in JavaScript trigger actions when users interact with a webpage, like clicking or typing. Pop-up boxes are messages that appear on the screen, including alert boxes to show information, prompt boxes to get input from the user, and confirm boxes to ask yes/no questions. These tools help make websites interactive and communicate directly with users.</div>
+</div>
+</div>
+
+<div class="scroll-container">
+  <img src="4t4.png" alt="cap" width="700">
+</div>
+</body>
+</html>

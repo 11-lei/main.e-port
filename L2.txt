@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<style type="text/css">
+h1 {text-align:center; font-family:TimesNewRoman; background-color:SandyBrown; font-size:40px;}
+p {background-color:Peru; border:5px dashed SaddleBrown; color:white; font-size:30px; padding:20px;}
+ul {background-color:Peru; border:5px dashed SaddleBrown; color:white; font-size:30px; padding:20px; margin-left:49%; text-align:left;}
+ol {background-color:Peru; border:5px dashed SaddleBrown; color:white; font-size:30px; padding:20px; text-align:left;}
+a {text-decoration:none; color:black; background-color:Peru; border:5px dashed SaddleBrown;}
+div.gallery:hover {border: 1px solid #777;}
+div.gallery {border:1px solid #ccc;}
+div.gallery img {width: 100%;height: auto;}
+div.desc {padding:15px; text-align:center;}
+* {box-sizing:border-box;}
+.responsive {padding:0 6px; float:right; width:24.99999%;}
+@media only screen and (max-width: 700px) {.responsive {width:49.99999%; margin:6px 0;}}
+@media only screen and (max-width: 500px) {.responsive {width:100%;}}
+.clearfix:after {content:""; display:table; clear:both;}
+</style>
+</head>
+<body style="background-image:url(supply.jpg); background-size:100% 100%;">
+
+<h1>Konsepto ng Supply</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_top" href="tsupply.webp">
+      <img src="tsupply.webp" alt="taas" width="500" height="300">
+    </a>
+    <div class="desc">Pagtaas ng Supply</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_top" href="bsupply.png">
+      <img src="bsupply.png" alt="baba" width="500" height="300">
+    </a>
+    <div class="desc">Pagbaba ng supply</div>
+  </div>
+</div>
+
+  <p style="margin-right:52%; text-align:left;"><b>Supply o Panustos</b>- Dami ng produkto o serbisyo na gustong <em>ibenta</em> ng mga prdyuser sa isang takdang presyo at partikular na panahon.<br>
+ <b>Batas ng Supply</b>- Kapag tumataas ang presyo, tataas ang dami ng gusto at kayang <em>ibenta</em>, at kapag bumababa ang presyo, bababa naman ang dami ng gusto at kayang ibenta <em><b>(Ceteris Paribus)</b></em></p>
+<br>
+
+ 
+  <p style="text-align:center;"><b>MATHEMATICAL FORMULA</b>- Supply=Pagnanais+Kakayahan<br>
+  <b>SUPPLY SCHEDULE</b>- Talahanayang nagpapakita kung gaano karaming produkto o serbisyo ang nais gawin ng mga prodyuser. <br>
+  <b>SUPPLY CURVE</b>- Grapikong representasyon kung gaano karaming produkto o serbisyo ang nais gawin ng mga prodyuser.<br>
+  <b>SUPPLY FUNCTION</b>- Matematikong pagpapakita ng ugnayan ng <em>presyo at quantity supplied</em><br>
+  -Qs=c+bP
+  -<b>Qs</b>: Dami ng supply<br>
+  -<b>c</b>: Bilang ng Qs kung ang presyo ay 0<br>
+  -<b>b</b>: Slope<br>
+  -<b>P</b>: Presyo<br>
+</p>
+  <h3 style="text-align:center; color:white; font-family:TimesNewRoman; background-color:SandyBrown; font-size:30px;"><b> Salik na Nakakaapekto sa Supply</b></h3>
+  <ol>
+  <li> Pagbabago sa teknolohiya</li>
+  <li> Pagbabago sa mga halaga ng mga salik ng produksyon</li>
+  <li> Pagbabago sa bilang ng mga nagtitinda</li>
+  <li> Pagbabago presyo ng magkaugnay na produkto</li>
+  <li> Ekspektasyon ng presyo</li>
+  <li> Okasyon</li>
+  <li> Panahon o Klima</li>
+  <li> Kalamidad</li>
+  <li> Dali ng pagkasira ng isang produkto</li>
+  <li> Tulong mula sa pamahalaan</li>
+</ol>
+<a href="L3.html" target="_top"> Pangatlo</a>
+
+
+</body>
+</html>

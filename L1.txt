@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<style type="text/css">
+
+h1 {text-align:center; font-family:TimesNewRoman; background-color:SandyBrown; font-size:40px;}
+p {background-color:Peru; border:5px dashed SaddleBrown; color:white; font-size:30px; padding:20px;}
+ul {background-color:Peru; border:5px dashed SaddleBrown; color:white; font-size:30px; padding:20px; margin-left:49%; text-align:left;}
+ol {background-color:Peru; border:5px dashed SaddleBrown; color:white; font-size:30px; padding:20px; text-align:left;}
+a {text-decoration:none; color:black; background-color:Peru; border:5px dashed SaddleBrown;}
+div.gallery {border:1px solid #ccc;}
+div.gallery:hover {border:1px solid #777;}
+
+div.gallery img {width:400; height:auto;}
+
+div.desc {padding:15px; text-align:center;}
+
+* {box-sizing:border-box;}
+
+.responsive {padding:0 6px; float:left; width 24.99999%;}
+
+@media only screen and (max-width: 700px) {.responsive {width:49.99999%; margin:6px 0;}}
+
+@media only screen and (max-width: 500px) {.responsive {width:100%;}}
+
+.clearfix:after {content:""; display:table; clear:both;}
+</style>
+</head>
+<body style="background-image:url(demand.png); background-size:100% 100%;">
+
+<h1>Konsepto ng Demand</h1>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="tdemand.png" target="_top">
+      <img src="tdemand.png" alt="taas" width="300" height="300">
+    </a>
+    <div class="desc">Pagtaas ng Demand</div>
+</div>
+</div>
+<br>
+<div class="responsive">
+  <div class="gallery">
+    <a href="bdemand.jpg" target="_top">
+      <img src="bdemand.jpg" alt="taas" width="400" height="400">
+    </a>
+    <div class="desc">Pagbaba ng Demand</div>
+</div>
+</div>
+
+  <p><b>Demand</b>- Tumutukoy sa dami ng produkto o serbisyo na gusto at kayang <em>bilhin</em> ng mga mamimili sa isang takdang presyo at partikular na panahon.<br>
+ <b>Presyo</b>-Pinakamahalagang nagtatakda <em>(determinant)</em> sa dami ng demand.</p>
+<br>
+
+  <div>
+  <p style="margin-right:52%; text-align:left;"><b>BATAS NG DEMAND</b>- Kapag tumataas ang presyo, bumababa ang dami ng gusto at kayang bilhin, at kapag bumababa ang presyo, tataas naman ang dami ng gusto at kayang bilhin <em><b>(Ceteris Paribus)</b></em></p>
+  </div>
+  <div>
+  <ul>
+  <li><b>SUBSTITUTION EFFECT</b>: Kapag tumataas ang presyo ng isang produkto, ang mga mamimili ay hahanap ng pamalit na mas mura.</li>
+  <li><b>INCOME EFFECT</b>: Nagpapahayag na mas malaki ang halaga ng kinikita kapag mas mababa ang presyo.</li>
+  </ul>
+  <p style="margin-right:55%; text-align:left;"><b>MATHEMATICAL FORMULA</b>- Demand=Kagustuhan+Kakayahan<br>
+  <b>DEMAND FUNCTION</b>- Matematikong pagpapakita o paglalahad sa ugnayan ng presyo at quantity demanded sa pamamagitan ng formula <em>(Qd)</em><br>
+  -Qd=a-bP<br>
+  -<b>Qd</b>: Dami ng demand<br>
+  -<b>a</b>: Dami ng demand kung ang presyo ay 0<br>
+  -<b>-b</b>: Slope ng demand function<br>
+  -<b>P</b>: Presyo<br>
+  <b>DEMAND SCHEDULE</b>- Isang talahanayan na nagpapakita ng ugnayan sa pagitan ng presyo ng mga kalakal at ang halaga ng mga kalakal na nais bayarin ng mga mamimili sa kanila sa presyo na iyon.<br>
+  <b>DEMAND CURVE</b>- Grapikong representasyon ng Batas ng Demand.</p>
+  <h3 style="text-align:center; color:white; font-family:TimesNewRoman; background-color:SandyBrown; font-size:30px;"><b> Salik na Nakakaapekto sa Demand</b></h3>
+  <ol>
+<li> Kita ng mga Mamimili</li>
+<li> Populasyon o Dami ng Mamimili</li>
+<li> Panlasa</li>
+<li> Presyo ng Magkaugnay na Produkto sa Pagkonsumo</li>
+<li> Inaasahan ng mga Mamimili sa Presyo sa Hinaharap</li>
+<li> Okasyon</li>
+<li> Panahon o Klima</li>
+</ol>
+<a href="L2.html" target="_top"> Pangalawa (Pindutin)</a>
+<a href="MAIN E-PORT.html" target="_top">Home</a>
+</div>
+</body>
+</html>
