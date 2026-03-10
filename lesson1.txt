@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> HANNAH LEI G. LAGGUI </title>
+<style type="text/css">
+h1 {font-family:Courier New; font-size:50; text-align:center; background-color:DeepSkyBlue; color:black; border:3px dashed DarkCyan; border-radius:30px;}
+</style>
+</head>
+<body>
+<body style="background-image:url(ICTbg.jpg); background-size:100% 100% background-repeat:no-repeat;">
+
+<h1>WELCOME TO MY E-PORTFOLIO!</h1>
+</body>
+</html>

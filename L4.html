@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<style type="text/css">
+* {box-sizing:border-box;}
+h1 {text-align:center; font-size:40px; color:white; font-family:Georgia;}
+p {font-size:20px; font-family:TimesNewRoman; color:white;}
+ol {font-size:20px; font-family:TimesNewRoman; color:white;}
+h3 {font-size:30px; font-family:TimesNewRoman; color:white;}
+a {text-decoration:none; color:black;}
+a:hover {background-color:Chocolate;}
+.img-container {float:left; width: 33.33%; padding:5px;}
+
+.clearfix::after {content:""; clear:both; display:table;}
+
+body {font-family:Arial;}
+
+.column {float:left; width:25%; padding:0 10px;}
+
+
+.row {margin:0 -5px;}
+
+
+.row:after {content:""; display:table; clear:both;}
+
+
+@media screen and (max-width: 600px) {.column {width:100%; display:block; margin-bottom:20px;}}
+
+
+.card {box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2); padding: 16px; text-align:center; background-color:DarkSlateBlue;}
+
+</style>
+</head>
+<body style="background-image:url(market.jpg); background-repeat:repeat;">
+
+<h1>Responsive Column Cards</h1>
+<p>Lakihan o paliitin ang iyong <em>screen</em> upang makita ang epekto.</p>
+<div class="clearfix">
+  <div class="img-container">
+<a href="mE.webp" alt="Equilibrium" target="_top" style="width:50%; height:50%;">
+  <img src="mE.webp" alt="Equilibrium" style="width:50%; height:50%;"><a>
+  </div>
+  <div class="img-container">
+<a href="mD.png" alt="Disequilibrium" target="_top" style="width:50%; height:50%;">
+  <img src="mD.png" alt="Disequilibrium" style="width:50%; height:50%;"></a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3><b>EQUILIBRIUM</b></h3>
+      <p>Isang kalagayan na walang sinuman sa mamimili at nagbibili ang gustong baguhin ang kasalukuyang sitwasyon sa pamilihan. Ipinapakita nito ang pagkakasundo ng bumibili at nagbibili sa isang takdang presyo at dami ng produkto</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3><b> Mga Kaganapan sa Pagbabago sa Pamilihan</h3>
+     <ol>
+     <li> Paglipat ng supply curve pakanan subalit walang pagbabago sa demand curve</li>
+     <li> Paglipat ng supply curve pakaliwa subalit walang pagbabago sa demand curve</li>
+     <li> Paglipat ng demand curve pakanan subalit walang pagbabago sa supply curve</li>
+     <li> Paglipat ng demand curve pakaliwa subalit walang pagbabago sa supply curve</li>
+     <li> Parehas ang paglipat ng demand at supply curve pakanan sa parehas na bahagdan</li>
+     <li> Parehas ang paglipat ng demand at supply curve pakaliwa sa parehas na bahagdan</li>
+     <li> Parehas ang paglipat ng demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng demand sa supply</li>
+     <li> Parehas ang paglipat ng demand at supply curve pakaliwa subalit mas maliit ang bahagdan ng pagbabago ng demand sa supply</li>
+     <li> Parehas na lumipat ang demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng supply sa demand </li>
+     <li> Parehas na lumipat ang demand at supply curve pakanan subalit mas maliit ang bahagdan ng pagbabago ng supply sa demand </li>
+     <li> Parehas na lumipat ang demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng supply sa demand </li>
+     <li> Paglipat ng supply curve pakanan at paglipat ng demand curve pakaliwa sa parehas na bahagdan</li>
+     <li> Paglipat ng supply curve pakaliwa at paglipat ng demand curve pakanan sa parehas na bahagdan</li>
+     <li> Walang pagbabago sa demand at supply</li>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3><b>DISEQUILIBRIUM</b></h3>
+      <p>Ang dami ng demand ay maaaring kulang o sobra sa dami ng supply.<br>
+      <b>Dami ng Demand</b>= Dami ng Supply</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3><b>SURPLUS</b></h3>
+      <p>Ang dami ng supply ay mas marami kung ihahambing sa dami ng demand.<br>
+      <b>Dami ng Demand<Dami ng Supply</b></p> 
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <h3><b>SHORTAGE</b></h3>
+      <p>Ang dami ng demand ay mas marami kung ihahambing sa dami ng supply.<br>
+      <b>Dami ng Demand>Dami ng Supply</b></p> 
+    </div>
+  </div>
+</div>
+<a href="L5.html" target="_top"> Panglima </a>  
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<style type="text/css">
+body {font-family: Arial;}
+h1 {font-size:40px; color:white; font-family:TimesNewRoman; background-color:NavyBlue;}
+p {font-size:20px; color:white; font-family:TimesNewRoman; padding:50px;}
+h3 {font-size:30px; color:white; font-family:TimesNewRoman; padding:50px;}
+a {text-decoration:none; color:black; background-color:Peru; border:5px dashed SaddleBrown;}
+div.scroll-container { background-color:#333; overflow:auto; white-space:nowrap; padding:10px;}
+
+div.scroll-container img { padding:10px;}
+
+
+.flip-card {background-color:transparent; width:300px; height:300px; perspective:1000px;}
+
+.flip-card-inner {position:relative; width:100%; height:100%; text-align:center; transition:transform 0.6s; transform-style:preserve-3d; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);}
+
+.flip-card:hover .flip-card-inner {transform:rotateY(180deg);}
+
+.flip-card-front, .flip-card-back {position:absolute; width:100%; height:100%; -webkit-backface-visibility:hidden; backface-visibility:hidden;}
+
+.flip-card-front {background-color:MidnightBlue; border:5px solid SkyBlue;color:white;}
+
+.flip-card-back {background-color:MidnightBlue; color:white; transform:rotateY(180deg);}
+</style>
+</head>
+<body style="background-image:url(control.jpg); background-size:100% 100%;">
+
+<h1>ANG PAGKONTROL NG PRESYO NG PAMAHALAAN</h1>
+<div class="scroll-container">
+  <img src="pc.png" alt="perfect competition" width="700" height="400">
+  <img src="pf.png" alt="imperfect competition" width="700" height="400"> 
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+     <h3><b>PRICE CONTROL</b></h3>
+    </div>
+    <div class="flip-card-back">
+      <p style="padding:0px;">Ang pagtatadhana ng pamahalaan ng pinakamababa at pinakamataas na presyong maaaring itakda sa mga produkto o serbisyo.<br>
+      <em>REPUBLIC ACT 7581</em>- Kilala sa tawag na <em>Price Control Act</em>. Layunin nito na maisagawa ng pamahalaan ang pagkontrol sa presyo ng mga bilihin. </p> 
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+     <h3><b>PRICE CELING</b></h3>
+    </div>
+    <div class="flip-card-back">
+      <p>Ito ay ang pinakamataas na presyong itinakda ng pamahalaan upang ipagbili ang mga produkto. Itinakda ito na mas mababa sa equilibrium price na umiiral sa pamilihan.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+     <h3><b>PRICE SUPPORT</b></h3>
+    </div>
+    <div class="flip-card-back">
+      <p> Ito ay isinasagawa ng pamahalaan upang tulungan at bigyang proteksyon ang mga prodyuser upang mabayaran ang mga gastos ng produksyon.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+     <h3><b>FLOOR PRICE</b></h3>
+    </div>
+    <div class="flip-card-back">
+      <p> Ito ay ang pinakamababa na presyong itinakda ng pamahalaan upang ipagbili ang produkto.</p>
+    </div>
+  </div>
+</div>
+<a href="4L1.html" target="_top"> Ikaapat na Markahan! </a>  
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<style type="text/css">
+* {box-sizing:border-box;}
+h1 {background-color:SteelBlue; text-align:center; font-size:40px; color:white; font-family:Georgia;}
+p {font-size:20px; font-family:TimesNewRoman; color:white;}
+ol {font-size:20px; font-family:TimesNewRoman; color:white;}
+h3 {font-size:30px; font-family:TimesNewRoman; color:white;}
+div.scroll-container {background-color:#333; overflow:auto; white-space:nowrap; padding:10px;}
+
+div.scroll-container img {padding:10px;}
+
+body {font-family:Arial;}
+
+.column {float:left; width:25%; padding:0 10px;}
+
+
+.row {margin:0 -5px;}
+
+
+.row:after {content:""; display:table; clear:both;}
+
+
+@media screen and (max-width: 600px) {.column { width:100%; display:block; margin-bottom:20px;}}
+
+
+.card {box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2); padding:16px; text-align:center; background-color:DarkRed;}
+
+</style>
+</head>
+<body style="background-image:url(structure.jpg); background-size:100% 100%;">
+
+<h1>Estruktura ng Pamilihan</h1>
+<div class="scroll-container">
+  <img src="p.webp" alt="perfect competition" width="700" height="400">
+  <img src="i.png" alt="imperfect competition" width="700" height="400">
+  
+</div>
+
+<div class="row">
+    <div class="card">
+      <h3><b>GANAP NA KOMPETISYON</b></h3>
+      <p>- Maraming maliliit na prodyuser at konsyumer<br>
+      - Magkakatulad ang mga produkto<br>
+      - Malayang paggalaw ng sangkap ng produksiyon<br>
+      - Malayang pagpasok at paglabas sa industriya</p>
+  </div>
+
+    <div class="card">
+      <h3><b> DI-GANAP NA KOMPETISYON</b></h3>
+     <p>- <em>Prodyuser</em>- May kapangyarihang maimpluwensyahan ang presyo ng pamilihan</p>
+    </div>
+
+    <div class="card">
+      <h3><b>MONOPOLYO</b></h3>
+      <p><em>Iisa lamang ang prodyuser</em> kaya siya ay may kakayahang impluwensiyahan ang pagtatakda ng presyo sa pamilihan.<br>
+      Produkto na walang kapalit</p>
+  </div>
+  
+    <div class="card">
+      <h3><b>MONOPSONYO</b></h3>
+      <p>Iisa lamang ang mamimili ngunit maraming prodyuser kaya may kakayahan ang mga konsyumer na maimpluwensiyahan ang pagtatakda ng presyo sa pamilihan.</p> 
+    </div>
+
+    <div class="card">
+      <h3><b>OLIGOPOLYO</b></h3>
+      <p>Iilan lamang na mga prodyuser ang nagbebenta ng magkakatulad o magkakaugnay na produkto at serbisyo kaya may kakayahan ang prodyuser na maimpluwensiyahan o madiktahan ang presyo na umiiral sa pamilihan.</p> 
+    </div>
+
+ <div class="card">
+      <h3><b>MONOPOLISTIKONG KOMPETISYON</b></h3>
+      <p>Maraming kalahok na prodyuser ang nagbebenta ng mga produkto sa pamilihan subalit marami rin ang mga konsyumer.</p> 
+    </div>
+</div>
+<a href="L6.html" target="_top"> Panghuli </a>
+</body>
+</html>
