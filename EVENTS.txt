@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head><title>EVENTS</title>
+<style type="text/css">
+h3 {font-size:25px; text-align:center;}
+h1 {text-align:center; font-size:40px; background-color:MediumSlateBlue; border:3px solid DarkSlateBlue; padding:4px; color:white;}
+.center {text-align:center; margin:auto; width:50%; background-color:BlueViolet; border:3px dashed SeaGreen; padding:10px;}
+a {text-decoration:none; color:CornSilk;}
+.flipbook {position:relative; width:700px; height:400px; perspective:2000px; margin-left:790px;}
+.page {position:absolute; width:100%; height:100%; transform-origin:left center; transform-style:preserve-3d; transition:transform 1s ease; box-shadow:0 5px 15px rgba(0,0,0,0.2); border-radius:10px; overflow:hidden;}
+.page .front, .page .back { position:absolute; width:100%; height:100%; backface-visibility:hidden; background:white; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:25px; text-align:center;}
+.page .back {background:#e3ffe3; transform:rotateY(180deg);}
+.btn {margin-top:20px; padding:10px 18px; border-radius:8px; background:BlueViolet; color:white; font-weight:bold; cursor:pointer; transition:0.3s;}
+.btn:hover {background:DarkSlateBlue;}
+input[type="checkbox"] {display:none;}
+.cover {z-index:20; background:DarkOrchid;}
+#open:checked ~ .cover {transform:rotateY(-180deg); z-index:1;}
+.p1 {z-index:19; background:#fff;}
+#flip1:checked ~ .p1 {transform:rotateY(-180deg); z-index:2;}
+.p2 {z-index:18; background-color:#fff;}
+#flip2:checked ~ .p2 {transform:rotateY(-180deg); z-index:3;}
+.p3 {z-index:17; background:#fff;}
+#flip3:checked ~ .p3 {transform:rotateY(-180deg); z-index:4;}
+.p4 {z-index:16; background:#fff;}
+#flip4:checked ~ .p4 {transform:rotateY(-180deg); z-index:5;}
+.p5 {z-index:15; background:#fff;}
+#flip5:checked ~ .p5 {transform:rotateY(-180deg); z-index:6;}
+.p6 {z-index:14; background:#fff;}
+#flip6:checked ~ .p6 {transform:rotateY(-180deg); z-index:7;}
+.p7 {z-index:13; background-color:#fff;}
+#flip7:checked ~ .p7 {transform:rotateY(-180deg); z-index:8;}
+.p8 {z-index:12; background:#fff;}
+#flip8:checked ~ .p8 {transform:rotateY(-180deg); z-index:9;}
+.p9 {z-index:11; background:#fff;}
+#flip9:checked ~ .p9 {transform:rotateY(-180deg); z-index:10;}
+* {box-sizing:border-box;}
+img {border-radius:20%;}
+.column {float:left; width:33.33%; padding:5px;}
+img:hover {transition:1.05s; transform: scale(1.3);}
+.cover1 {z-index:10; background:DarkOrchid;}
+#open1:checked ~ .cover1 {transform:rotateY(-180deg); z-index:11;}
+.p10 {z-index:9; background:#fff;}
+#flip10:checked ~ .p10 {transform:rotateY(-180deg); z-index:12;}
+.p11 {z-index:8; background-color:#fff;}
+#flip11:checked ~ .p11 {transform:rotateY(-180deg); z-index:13;}
+.p12 {z-index:7; background:#fff;}
+#flip12:checked ~ .p12 {transform:rotateY(-180deg); z-index:14;}
+.p13 {z-index:6; background:#fff;}
+#flip13:checked ~ .p13 {transform:rotateY(-180deg); z-index:15;}
+.p14 {z-index:5; background:#fff;}
+#flip14:checked ~ .p14 {transform:rotateY(-180deg); z-index:16;}
+.p15 {z-index:4; background:#fff;}
+#flip15:checked ~ .p15 {transform:rotateY(-180deg); z-index:17;}
+.p16 {z-index:3; background-color:#fff;}
+#flip16:checked ~ .p16 {transform:rotateY(-180deg); z-index:18;}
+.p17 {z-index:2; background:#fff;}
+#flip17:checked ~ .p17 {transform:rotateY(-180deg); z-index:19;}
+.p18 {z-index:1; background:#fff;}
+#flip18:checked ~ .p18 {transform:rotateY(-180deg); z-index:20;}
+
+p {font-family:Georgia; color:black; font-size:15px;}
+</style>
+</head>
+<body style="background-image:url(eve.jpg); background-repeat:repeat;">
+<h1> School Events!</h1>
+<a href="MAIN E-PORT.html" target="_top">Home</a>
+<div class="flipbook">
+<input type="checkbox" id="open">
+<input type="checkbox" id="flip1">
+<input type="checkbox" id="flip2">
+<input type="checkbox" id="flip3">
+<input type="checkbox" id="flip4">
+<input type="checkbox" id="flip5">
+<input type="checkbox" id="flip6">
+<input type="checkbox" id="flip7">
+<input type="checkbox" id="flip8">
+<input type="checkbox" id="flip9">
+
+<div class="page cover">
+<div class="front">
+<h3><b>EVENTS(1ST QTR.-4TH QTR.)</b></h3>
+<p>These are the events that happened in our school!(Pictures and Videos)</p>
+<label for="open" class="btn">Open Book</label>
+</div>
+</div>
+
+<div class="page p1">
+<div class="front">
+<h3><b>BUWAN NG WIKA</b></h3>
+<img src="bw.jpg" alt="buwan" style="width:30%;">
+<img src="cos.jpg" alt="wika" style="width:30%;">
+<label for="flip1" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p2">
+<div class="front">
+<h3>INTRAMURALS</h3>
+<img src="run.jpg" alt="chant" style="width:20%;">
+<img src="vb.jpg" alt="vb" style="width:20%;">
+<label for="flip2" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p3">
+<div class="front">
+<h3>SCIENCE</h3>
+<img src="mnth.jpg" alt="month" style="width:30%;">
+<img src="sci.jpg" alt="science" style="width:30%;">
+<label for="flip3" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p4">
+<div class="front">
+<h3>ARALING PANLIPUNAN</h3>
+<img src="un.jpg" alt="buwan" style="width:30%;">
+<img src="symp.jpg" alt="symp" style="width:30%;">
+<label for="flip4" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p5">
+<div class="front">
+<h3>TEACHER'S DAY</h3>
+<img src="t.jpg" alt="buwan" style="width:30%;">
+<img src="cher.jpg" alt="symp" style="width:30%;">
+<label for="flip5" class="btn">Next</label>
+</div>
+</div>
+
+<div class="page p6">
+<div class="front">
+<h3><b>ENGLISH MONTH(Door Book Cover and Booklandia)</b></h3>
+<img src="door.jpg" alt="buwan" style="width:20%;">
+<img src="RC.jpg" alt="wika" style="width:30%;">
+<label for="flip6" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p7">
+<div class="front">
+<h3>VALUES MONTH(MVP and VPOP)</h3>
+<img src="mvpic.jpg" alt="chant" style="width:20%;">
+<img src="vpic.jpg" alt="vb" style="width:20%;">
+<label for="flip7" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p8">
+<div class="front">
+<h3>MATH MONTH(Math Garden and Math Mural)</h3>
+<img src="MathGarden.jpg" alt="month" style="width:20%;">
+<img src="mathmural.jpg" alt="science" style="width:20%;">
+<label for="flip8" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p9">
+<div class="front">
+<h3>MAPEH MONTH(Folk Dance and Street Dance)</h3>
+<img src="fpic.jpg" alt="buwan" style="width:30%;">
+<img src="stpic.jpg" alt="symp" style="width:20%;">
+<label for="flip9" class="btn">Next </label>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<div class="flipbook">
+<input type="checkbox" id="open1">
+<input type="checkbox" id="flip10">
+<input type="checkbox" id="flip11">
+<input type="checkbox" id="flip12">
+<input type="checkbox" id="flip13">
+<input type="checkbox" id="flip14">
+<input type="checkbox" id="flip15">
+<input type="checkbox" id="flip16">
+<input type="checkbox" id="flip17">
+<input type="checkbox" id="flip18">
+
+<div class="page cover1">
+<div class="front">
+<h3><b>EVENTS</b></h3>
+<p>These are the events that happened in our school!(Reflections)</p>
+<label for="open1" class="btn">Open Book</label>
+</div>
+</div>
+
+<div class="page p10">
+<div class="front">
+<h3><b>BUWAN NG WIKA</b></h3>
+<p>The most important thing I learned from the event was to appreciate and love our cultures and traditions. I can apply this by actively participating in cultural festivals, learning how to cook traditional foods, and using our native language. I actively participated in the event by wearing our traditional clothes, known as Filipiniana. I would explain this to a classmate by teaching them our language to inspire others and encouraging them to join in this "Buwan ng Wika" event. It is important to have the "Buwan ng Wika" event because it will help us enjoy and learn many things from it.</p>
+<label for="flip10" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p11">
+<div class="front">
+<h3><b>INTRAMURALS</b></h3>
+<p>The most important thing I learned from the event was to know how cooperation can be very helpful for us. I can apply this by working actively and helping others at the events. I actively participated in this event by assisting in creating a choreography and dancing with it. If I were to explain this event to a classmate, I would do this by showing them our practice videos and how we improve day by day. This event is important because we will know how sections help each other and do their best through it.</p>
+<label for="flip11" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p12">
+<div class="front">
+<h3><b>SCIENCE</b></h3>
+<p>The most important thing I learned from the event was to know how Science can also be enjoyable even though it is also a hard subject. I can apply this to a real-life application by planting a flower, where I can observe its growth and we can understand photosynthesis. I actively participate in the event by helping our classmates in doing the "Wins Corner". I would explain this subject to a classmate by teaching topics to them in a very simple yet fun way that would still involve Science. This Science event is important as it makes the students understand the concept of it and appreciate this subject.</p>
+<label for="flip12" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p13">
+<div class="front">
+<h3><b>ARALING PANLIPUNAN</b></h3>
+<p>The most important thing I learned from the event was to know the history of the Philippines and the United Nations. I can apply what I learned in real-life situations by learning from the mistakes that we made in the past. I actively participated in the events by doing the quiz bee elimination. I would teach this subject to a classmate by interestingly teaching them history. It is important to have this event because it will help us be aware of our culture and history.</p>
+<label for="flip13" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p14">
+<div class="front">
+<h3><b>TEACHER'S DAY</b></h3>
+<p>The most important thing I learned from the event was to appreciate teachers. I can apply what I learned in real-life situations by making an effort to make a gift and expressing my gratitudes towards my teachers. I actively participated in this event by giving roses to teachers. If I were to explain this to a classmate, I would teach them about how significant teachers are to our life and our future. Celebrating in this event is important as teachers are heroes that wear no capes and they are the one who shapes our future and knowledge.</p>
+<label for="flip14" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p15">
+<div class="front">
+<h3><b>ENGLISH MONTH</b></h3>
+<p>The English month taught us the importance of being creative and also involved communication skills. I can apply what I learned in real-life situations by designing my school projects and explaining them in front of my classmates. I actively participated in this event by joining the door book cover contest. If I were to explain this to a classmate, I would tell them how enjoyable this month was and taught us how to communicate effectively with each other. Celebrating this is significant because we will know how the sections will cooperate and communicate.</p>
+<label for="flip15" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p16">
+<div class="front">
+<h3><b>VALUES MONTH</b></h3>
+<p>The Values month taught us how to value our own country and embrace our identity. I can apply this by following the traditions and cultures, and adapting the hospitality behaviour of our fellow Filipinos. I actively participated in this event by joining VPOP. If I were to explain this to a classmate, I would tell them how beautiful our country is and its values. Celebrating this is significant because it promotes core moral, cultural, and spiritual values that strengthen national identity.</p>
+<label for="flip16" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p17">
+<div class="front">
+<h3><b>MATH MONTH</b></h3>
+<p>The Math month taught us how to solve word problems. I can apply this in daily life situations by calculating how much I spent this week and how much I should spend next week. I actively participated in this event by joining Math TikTok. If I were to explain this to a classmate, I would tell them that Math is enjoyable as long as you understand it. Celebrating this is important because it will help our minds be used to solving these kinds of problems and will help us improve our Math skills.</p>
+<label for="flip17" class="btn">Next </label>
+</div>
+</div>
+
+<div class="page p18">
+<div class="front">
+<h3><b>MAPEH MONTH</b></h3>
+<p>This MAPEH month taught us how teamwork makes the dream work. I can apply this in real-life situations by cooperating and following the instructions of every group project. I actively participated in the Folk Dance competition and bagged the 2nd-runner-up. If I were to explain this to a classmate, I would tell them how enjoyable this month is because you get to show your talents here. Celebrating this is important because people will be able to see your potential and your talents.</p>
+<label for="flip18" class="btn">Next </label>
+</div>
+</div>
+</div>
+
+<h3>Videos</h3>
+<br>
+<div class="center">
+<video width="40%" height="40%" controls>
+<source src="ce.mp4" type="video/mp4">
+<source src="ce.ogg" type="video/ogg">
+
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="30%" height="30%" controls>
+<source src="ap.mp4" type="video/mp4">
+<source src="ap.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="30%" height="30%" controls>
+<source src="ms.mp4" type="video/mp4">
+<source src="ms.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="40%" height="40%" controls>
+<source src="run.mp4" type="video/mp4">
+<source src="run.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="30%" height="30%" controls>
+<source src="dekla.mp4" type="video/mp4">
+<source src="dekla.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="40%" height="40%" controls>
+<source src="booklandia.mp4" type="video/mp4">
+<source src="booklandia.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="40%" height="40%" controls>
+<source src="vpop.mp4" type="video/mp4">
+<source src="vpop.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="40%" height="40%" controls>
+<source src="mathtikok.mp4" type="video/mp4">
+<source src="mathtikok.ogg" type="video/ogg">
+</video>
+</div>
+
+<br>
+<div class="center">
+<video width="40%" height="40%" controls>
+<source src="opm.mp4" type="video/mp4">
+<source src="opm.ogg" type="video/ogg">
+</video>
+</div>
+
+</body>
+</html>
